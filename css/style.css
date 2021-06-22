@@ -109,10 +109,28 @@ p {
     text-align: center;
     background-color: #00669F;
     color: white;
+    position: relative;
+    top: 10px;
 }
 
-a:link, a:visited, a:active {
+.ver-mas2 {
+    margin-left: 105px;
+    margin-right: 105px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+a:link {
     text-decoration: none;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    color: black;
 }
 
 .fab {
