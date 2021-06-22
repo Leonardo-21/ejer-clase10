@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    width: 1024px;
+    height: 38px;
+    margin-top: 0px;
+    margin-left: 150px;
+    padding: opx;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.heroes {
+    background-color: #00669F;
+    width: 1024px;
+    height: 101px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 28px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+}
+
+main {
+    width: 1024px;
+    margin: 80px 182px 169px;
+    height: 700px;
+    top: 153px;
+    position: relative;
+}
+
+.img1, .img2, .img3 {
+    width: 300px;
+    height: 529px;
+    background-color: #F3F3F3;
+    border: 0px black solid;
+    border-radius: 3%;
+    top: 0px;
+    box-shadow: 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.fas {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.img1 {
+    position: absolute;
+}
+
+.img2 {
+    position: absolute;
+    left: 330px;
+}
+
+.img3 {
+    position: absolute;
+    left: 660px;
+}
+
+.fondo {
+    width: 300px;
+    height: 193px;
+}
+
+.per-rel {
+    position: relative;
+}
+
+.personaje {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 87px;
+    top: 134px;
+    border-radius: 50%;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 45px;
+}
+
+p {
+    text-align: justify;
+    padding: 0px 10px;
+}
+
+.ver-mas {
+    margin-left: 105px;
+    margin-right: 105px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00669F;
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+.fab {
+    position: fixed;
+    color: rgb(14, 231, 108);
+    font-size: 60px;
+    bottom: 30px;
+    right: 160px;
+}
+
+.pie {
+    background-color: #00669F;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
